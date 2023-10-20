@@ -1,0 +1,402 @@
+MERN
+
+M -> MongoDB
+E -> ExpressJS
+R -> ReactJS
+N -> NoteJS
+
+JS -> VanillaJS
+      ECMA-SCRIPT-6 (ES-6)
+
+JAVASCRIPT :
+------------
+1. Introduction to JS and History
+2. How to Learn
+
+   1. Characterset 
+   2. Token
+    - Identifiers
+    - Keywords
+    - Constant 
+    - Datatype
+    - Operators
+    - Variables
+   3. Statments
+    - Control Statements
+       -> Conditional Control Statements
+           a. OneWay COnditional Statement
+              if Statement
+              if else Statement
+              else if ladder
+           b. Multiway COnditional Statement
+              switch statement
+       -> Loop Control Statements
+           a. Entry Control Loop
+              - while Loop
+              - For Loop
+              - for In Loop
+              - for Of Loop
+              - foreach loop
+           b. Exit Control Loop
+              - do while Loop
+           c. Jumping Statement
+              - break
+              - continue
+    
+    4. Array
+             - Waht is Array
+             - How to create Array
+             - Memory Representation of Array
+             - Properties of Array
+             - Type of Array
+             - Array Methods :
+
+                        at()
+                        concat()
+                        Array()
+                        copyWithin()
+                        entries()
+                        every()
+                        fill()
+                        filter()
+                        find()
+                        findIndex()
+                        findLast()
+                        findLastIndex()
+                        flat()
+                        flatMap()
+                        forEach()
+                        includes()
+                        indexOf()
+                        join()
+                        keys()
+                        lastIndexOf()
+                        length
+                        map()
+                        pop()
+                        push()
+                        reduce()
+                        reduceRight()
+                        reverse()
+                        shift()
+                        slice()
+                        some()
+                        sort()
+                        splice()
+                        toLocaleString()
+                        toReversed()
+                        toSorted()
+                        toSpliced()
+                        toString()
+                        unshift()
+                        values()
+                        with()
+            - Exercise 
+
+    5. String  
+           console.log(String.prototype);
+            anchor()
+            at()
+            big()
+            blink()
+            bold()
+            charAt()
+            charCodeAt()
+            codePointAt()
+            concat()
+            String()
+            endsWith()
+            fixed()
+            fontcolor()
+            fontsize()
+            includes()
+            indexOf()
+            isWellFormed()
+            italics()
+            lastIndexOf()
+            length
+            link()
+            localeCompare()
+            match()
+            matchAll()
+            normalize()
+            padEnd()
+            padStart()
+            repeat()
+            replace()
+            replaceAll()
+            search()
+            slice()
+            small()
+            split()
+            startsWith()
+            strike()
+            sub()
+            substr()
+            substring()
+            sup()
+            toLocaleLowerCase()
+            toLocaleUpperCase()
+            toLowerCase()
+            toString()
+            toUpperCase()
+            toWellFormed()
+            trim()
+            trimEnd()
+            trimStart()
+            trimEnd()
+            trimStart()
+            valueOf()
+
+    6. Math Function
+           console.log(Math);
+         E :2.718281828459045
+         LN2 :0.6931471805599453
+         LN10:2.302585092994046
+         LOG2E:1.4426950408889634
+         LOG10E : 0.4342944819032518
+         PI : 3.141592653589793
+    SQRT1_2 : 0.7071067811865476
+       SQRT2: 1.4142135623730951
+       abs()
+      acos()
+      acosh()
+      asin()
+      asinh()
+      atan()
+      atan2()
+      atanh()
+      cbrt()
+      ceil()
+      clz32()
+      cos()
+      cosh()
+      exp()
+      expm1()
+      floor()
+      fround()
+      hypot()
+      imul()
+      log()
+      log1p()
+      log2()
+      log10()
+      max()
+      min()
+      pow()
+        random()
+        round()
+        sign()
+        sin()
+        sinh()
+        sqrt()
+        tan()
+        tanh()
+        trunc()
+
+6. Function
+   - What is Function
+   - Why Function
+   - Syntax
+   - Function Components
+   - Types of Function
+   - Function call
+   - Callback Functions
+   - Default Argument
+   - Arrow Functions
+
+   - Binding
+     
+7. Object
+
+
+8. DOM
+
+
+9. JS Events
+
+
+10. Date 
+
+    constructor
+    : 
+    ƒ Date()
+    getDate
+    : 
+    ƒ getDate()
+    getDay
+    : 
+    ƒ getDay()
+    getFullYear
+    : 
+    ƒ getFullYear()
+    getHours
+    : 
+    ƒ getHours()
+    getMilliseconds
+    : 
+    ƒ getMilliseconds()
+    getMinutes
+    : 
+    ƒ getMinutes()
+    getMonth
+    : 
+    ƒ getMonth()
+    getSeconds
+    : 
+    ƒ getSeconds()
+    getTime
+    : 
+    ƒ getTime()
+    getTimezoneOffset
+    : 
+    ƒ getTimezoneOffset()
+    getUTCDate
+    : 
+    ƒ getUTCDate()
+    getUTCDay
+    : 
+    ƒ getUTCDay()
+    getUTCFullYear
+    : 
+    ƒ getUTCFullYear()
+    getUTCHours
+    : 
+    ƒ getUTCHours()
+    getUTCMilliseconds
+    : 
+    ƒ getUTCMilliseconds()
+    getUTCMinutes
+    : 
+    ƒ getUTCMinutes()
+    getUTCMonth
+    : 
+    ƒ getUTCMonth()
+    getUTCSeconds
+    : 
+    ƒ getUTCSeconds()
+    getYear
+    : 
+    ƒ getYear()
+    setDate
+    : 
+    ƒ setDate()
+    setFullYear
+    : 
+    ƒ setFullYear()
+    setHours
+    : 
+    ƒ setHours()
+    setMilliseconds
+    : 
+    ƒ setMilliseconds()
+    setMinutes
+    : 
+    ƒ setMinutes()
+    setMonth
+    : 
+    ƒ setMonth()
+    setSeconds
+    : 
+    ƒ setSeconds()
+    setTime
+    : 
+    ƒ setTime()
+    setUTCDate
+    : 
+    ƒ setUTCDate()
+    setUTCFullYear
+    : 
+    ƒ setUTCFullYear()
+    setUTCHours
+    : 
+    ƒ setUTCHours()
+    setUTCMilliseconds
+    : 
+    ƒ setUTCMilliseconds()
+    setUTCMinutes
+    : 
+    ƒ setUTCMinutes()
+    setUTCMonth
+    : 
+    ƒ setUTCMonth()
+    setUTCSeconds
+    : 
+    ƒ setUTCSeconds()
+    setYear
+    : 
+    ƒ setYear()
+    toDateString
+    : 
+    ƒ toDateString()
+    toGMTString
+    : 
+    ƒ toUTCString()
+    toISOString
+    : 
+    ƒ toISOString()
+    toJSON
+    : 
+    ƒ toJSON()
+    toLocaleDateString
+    : 
+    ƒ toLocaleDateString()
+    toLocaleString
+    : 
+    ƒ toLocaleString()
+    toLocaleTimeString
+    : 
+    ƒ toLocaleTimeString()
+    toString
+    : 
+    ƒ toString()
+    toTimeString
+    : 
+    ƒ toTimeString()
+    toUTCString
+    : 
+    ƒ toUTCString()
+    valueOf
+    : 
+    ƒ valueOf()
+
+ 11. ES-6
+
+     - let ,var,const
+
+     - Rest parameter
+
+     - Spread Operators
+
+     - Hoisting
+
+     - Template Literal
+
+
+     - Destructuring
+
+     - Modules
+
+     - Classes
+
+     - Prototypial Inheritance 
+
+     - Symbol
+
+     - Iterrator & Generator
+
+     - Asyncronous JS
+
+      -> Callback Function
+      -> Clouser
+      -> Promises
+
+
+->API Call using AJAX
+
+
+-> Project
+
+
+-> ReactJS
+
