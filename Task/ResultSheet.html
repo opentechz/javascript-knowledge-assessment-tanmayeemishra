@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Sheet of a Student</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <h2 class="alert alert-primary text-center">Result Sheet of a Student</h2>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 table-dark">
+                <h4 class="text-center mt-2 ">Enter Student Details</h4>
+                <table class="table table-primary">
+                    <tr>
+                        <td>Student Name:</td>
+                        <td>
+                            <input type="name" id="txtName" name="txtName"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Student Email :</td>
+                        <td>
+                            <input type="email" id="txtEmail"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Phone :</td>
+                        <td>
+                            <input type="tel" id="txtPhone"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Physics : </td>
+                        <td>
+                            <input type="number" id="txtPhysics"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Chemistry :</td>
+                        <td>
+                            <input type="number" id="txtChemistry"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Math :</td>
+                        <td>
+                            <input type="number" id="txtMath"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Biology :</td>
+                        <td>
+                            <input type="number" id="txtBiology"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="padding-left: 190px;">
+                            <button onclick="findResult()" >Find Result</button>
+                        </td>
+                    </tr>
+                </table>
+                
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 table table-dark" style="margin-bottom: 0px;">
+                <h4 class="text-center mt-2">Student Mark Details</h4>
+                <table class="table table-success ">
+                    
+                    <tr>
+                        <td>
+                            Name:
+                        </td>
+                        <td>
+                            <p id="l1"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email:
+                        </td>
+                        <td>
+                            <p id="l2"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Phone:
+                        </td>
+                        <td>
+                            <p id="l3"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Total Mark:
+                        </td>
+                        <td>
+                            <p id="result"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Average Mark:
+                        </td>
+                        <td>
+                            <p id="resultAverage"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Percentage:
+                        </td>
+                        <td>
+                            <p id="resultPercentage"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Grade:
+                        </td>
+                        <td>
+                            <p id="grade"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Status:
+                        </td>
+                        <td>
+                            <p id="statusDetails"></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="student.js"></script>
+</body>
+</html>
